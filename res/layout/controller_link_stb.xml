@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_link"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yindao_bg"
+     >
+     
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="100dp"
+        >
+	    <TextView
+	        android:id="@+id/controller_setting"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="40dp"
+	        android:layout_marginTop="30dp"
+	        android:text="连接机顶盒" 
+	        android:textSize="36sp"
+	        android:textColor="@color/white"
+	        />
+	    
+        <LinearLayout
+            android:id="@+id/controller_tips_ly"
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/controller_setting"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/controller_tips"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/excalmatory"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="请确保机顶盒已正确连接至电视，并保持电源启动状态"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/controller_tips_ly"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/item_bg"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/controller_src1"
+                android:layout_width="347dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/items_focus"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                >
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="27dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"/>
+                <ImageView
+                    android:id="@+id/controller_src1_chosen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:background="@drawable/wifi_chosen"
+                    android:visibility="invisible"
+                    />
+            </LinearLayout>
+            
+            <ImageView
+                android:layout_width="347dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/item_divide"/>
+            
+            <LinearLayout
+                android:id="@+id/controller_src2"
+                android:layout_width="347dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/items_focus"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                >
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="27dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"/>
+                <ImageView
+                    android:id="@+id/controller_src2_chosen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:background="@drawable/wifi_chosen"
+                    android:visibility="invisible"
+                    />
+            </LinearLayout>
+            
+             <ImageView
+                android:layout_width="347dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/item_divide"/>
+             
+             <LinearLayout
+                android:id="@+id/controller_src3"
+                android:layout_width="347dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/items_focus"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                >
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="27dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"/>
+                <ImageView
+                    android:id="@+id/controller_src3_chosen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:background="@drawable/wifi_chosen"
+                    android:visibility="invisible"
+                    />
+            </LinearLayout>
+            
+            <ImageView
+                android:layout_width="347dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/item_divide"/>
+            
+            <LinearLayout
+                android:id="@+id/controller_src4"
+                android:layout_width="347dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/items_focus"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                >
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="27dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"/>
+                <ImageView
+                    android:id="@+id/controller_src4_chosen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:background="@drawable/wifi_chosen"
+                    android:visibility="invisible"
+                    />
+            </LinearLayout>
+            
+              <ImageView
+                android:layout_width="347dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/item_divide"/>
+            
+             <LinearLayout
+                android:id="@+id/controller_src5"
+                android:layout_width="347dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/items_focus"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                >
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="27dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"/>
+                <ImageView
+                    android:id="@+id/controller_src5_chosen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:background="@drawable/wifi_chosen"
+                    android:visibility="invisible"
+                    />
+            </LinearLayout>
+            
+              <ImageView
+                android:layout_width="347dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/item_divide"/>
+              
+              <LinearLayout
+                android:id="@+id/controller_src6"
+                android:layout_width="347dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/items_focus"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                >
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="27dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"/>
+                <ImageView
+                    android:id="@+id/controller_src6_chosen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:background="@drawable/wifi_chosen"
+                    android:visibility="invisible"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+              
+        <LinearLayout
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:layout_toRightOf="@id/controller_tips_ly"
+            android:layout_alignTop="@id/controller_tips_ly"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="60dp"
+            android:orientation="vertical">
+   
+            
+            <TextView
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="260dp"
+                android:text="在左侧列表切换通道，直到右侧窗口显示机顶盒界面信号界面为止，即设置成功。"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                />
+            
+            <Button
+                android:id="@+id/controller_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="right"
+                android:background="@drawable/wifi_connect_button"
+                android:text="下一步"
+                android:textSize="36sp"
+                android:textColor="@color/white"
+                />
+            
+        </LinearLayout>
+        
+    </RelativeLayout>
+    
+<!--             叠加一张背景图。。。当没有信号时候。 -->
+    <ImageView
+        android:id="@+id/tv_nosrc_bg"
+        android:layout_width="450dp"
+        android:layout_height="254dp"
+        android:background="@drawable/home_default_tv"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+    
+    
+<!--     <com.konka.android.tv.TVView -->
+<!--     	android:id="@+id/tv_window" -->
+<!--         android:layout_width="444dp" -->
+<!--         android:layout_height="248dp" -->
+<!--         android:clickable="false" -->
+<!--         android:focusable="false" -->
+<!--         android:focusableInTouchMode="false" -->
+<!-- 	    android:visibility="invisible"/> -->
+    <View
+        android:id="@+id/tv_window"
+        android:layout_width="444dp"
+        android:layout_height="248dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="invisible"/>
+    
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<color name="transparent">#00000000</color>
+	<color name="white">#ffffffff</color>
+	<color name="black">#ff000000</color>
+ 	<color name="half_black">#ff4f4e4e</color>  <!-- 半黑 -->
+ 	<color name="ip_gray">#ffa3d8f9</color>		<!-- 自动设置IP时候的灰色 -->
+ 	<color name="wifi_usable">#ff4f4e4e</color>
+ 	<color name="src_text">#ff858585</color>
+		
+</resources>
